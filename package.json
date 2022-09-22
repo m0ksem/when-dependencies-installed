@@ -1,0 +1,16 @@
+{
+  "name": "when-dependencies-installed",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": "git@github.com:m0ksem/when-dependencies-installed.git",
+  "author": "m0ksem <m0ksem1337@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "node src/index.mjs",
+    "dependenciesInstalled": "echo 1"
+  },
+  "dependencies": {
+    "fast-glob": "^3.2.12"
+  }
+}
