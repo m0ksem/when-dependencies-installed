@@ -8,9 +8,12 @@
   "license": "MIT",
   "scripts": {
     "postinstall": "node src/index.mjs",
-    "dependenciesInstalled": "echo 1"
+    "release": "bumpp --commit --push --tag && npm publish"
   },
   "dependencies": {
     "fast-glob": "^3.2.12"
+  },
+  "devDependencies": {
+    "bumpp": "^8.2.1"
   }
 }
