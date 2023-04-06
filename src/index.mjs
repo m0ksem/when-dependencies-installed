@@ -1,4 +1,4 @@
-import { resolve, dirname } from 'path'
+import { resolve, dirname } from 'pathe'
 import { readFileSync } from 'fs'
 import { execSync } from 'child_process'
 import fastGlob from 'fast-glob'

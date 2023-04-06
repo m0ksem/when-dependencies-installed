@@ -11,7 +11,8 @@
     "release": "bumpp --commit --push --tag && npm publish --access public"
   },
   "dependencies": {
-    "fast-glob": "^3.2.12"
+    "fast-glob": "^3.2.12",
+    "pathe": "^1.1.0"
   },
   "devDependencies": {
     "bumpp": "^8.2.1"
