@@ -1,6 +1,6 @@
 {
   "name": "when-dependencies-installed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "type": "module",
   "repository": "git@github.com:m0ksem/when-dependencies-installed.git",
